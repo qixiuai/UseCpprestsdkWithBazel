@@ -14,7 +14,7 @@ cc_binary(
     deps = [
         "//third_party/libssl:libssl",
         "//third_party/libssl:crypto",
-        "//third_party:boost",
+        "//third_party/boost:boost",
         "//third_party/cpprest:cpprest",
     ],
 )
@@ -28,7 +28,7 @@ cc_binary(
         "//third_party/cpprest:cpprest",
         "//third_party/libssl:libssl",
         "//third_party/libssl:crypto",
-        "//third_party:boost",
+        "//third_party/boost:boost",
     ],
 )
 
